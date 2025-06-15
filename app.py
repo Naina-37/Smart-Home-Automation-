@@ -1,7 +1,7 @@
 from flask import Flask, flash,render_template, request, session, redirect, url_for
 import datetime
 import hashlib
-from session22C import MongoDBHelper
+from database import MongoDBHelper
 from bson import ObjectId  # Import ObjectId from bson
 
 web_app = Flask("SMART HOME AUTOMATION SYSTEM")
